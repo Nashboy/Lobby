@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="css/profile.css"  type="text/css"/>
   </head>
 
-  <body>
+  <body class = "blue lighten-3">
       <div class = "selection">
         <div class = "row">
           <!-- Left Reminder Bar -->
@@ -28,20 +28,77 @@
               </div>
 
           </div>
-            <!-- Event Feed -->
-            <div class = "row ">
-              <div class = "col s1">
 
+          <!-- Make New Event -->
+          <div class =  "card-panel indigo">
+          <div class= "container ">
+            <div class = "row"><span class = "white-text">
+              <h3> <center>Make New Event</center> </h3>
+              <div class = "col s1"></div>
+              <div class = "col s10 card-panel indigo lighten-1">
+                <div class = "col s1"></div>
+                <div class="input-field col s5">
+                  <i class="textbox">Start time</i>
+                  <input id="starttime" type="text"></div>
+                <div class="input-field col s5">
+                  <i class="textbox">End time</i>
+                  <input id="endtime" type="text"></div>
+              <div class = "col s1"> </div>
+            <div class = "row">
+              <div class = "col s3"></div>
+              <div class = "input_field col s6">
+                <i class= "textbox">Activity Name</i>
+                <input id="eventname" type = "text"></div>
               </div>
-              <div class = "col s10">
-              <div class = "container">
+              <div class = "col s3"></div>
+              <div class = "input_field col s6">
+                <i class= "textbox">Location</i>
+                <input id="eventlocation" type = "text"></div>
+              <div class = "col s10"></div>
+              <div class = "col s3"></div>
+              <div class = "input_field col s6">
+                <i class = "textbox"> Event Description</i>
+                <input id = "eventdescription" type = "text"></div>
+              </div>
+              <div class = "col s3"> </div>
+            </div>
+          </div></div>
+          <center><a class="waves-effect black btn">submit</a></center>
+          </div>
 
-                <div class = "selection">
-                  <div class = "row">
 
-                    <div class = "col s1">
+            <div class = "row">
+            </div>
 
-                    </div>
+          <!-- Event Header -->
+
+            <div class = "row">
+
+              <div class = "col s12 card-panel cyan">
+                <center><h5>Event Feed</h5></center>
+              </div>
+
+
+
+            </div>
+              <!-- Event Feed -->
+              <div class = "row blue">
+
+
+
+                <div class = "row">
+                  <div class = "col s1">
+
+                  </div>
+                  <div class = "col s10">
+                    <div class = "container">
+
+                      <div class = "selection">
+                        <div class = "row">
+
+                          <div class = "col s1">
+
+                          </div>
 
                     <div class = "col s10 card-panel teal lighten-2">
                       <!-- Important Info - Event -->
@@ -51,8 +108,8 @@
 
                         </div>
                         <div class = "col s4 teal lighten-3">
-                          <p id = "hostName">Name</p>
-                          <p id = "hostActivity">Activity</p>
+                          <p id = "hostName">John Snow</p>
+                          <p id = "hostActivity">Kill white Walkers</p>
                         </div>
                         <!-- Blank Space (Middle) -->
                         <div class = "col s2 teal lighten-3">
@@ -60,8 +117,8 @@
                         </div>
                         <!-- Right side -->
                         <div class = "col s4 teal lighten-3">
-                          <p id = "hostTime">Time</p>
-                          <p id = "hostLocation">Location</p>
+                          <p id = "hostTime">When winter Comes</p>
+                          <p id = "hostLocation">The Wall</p>
                         </div>
                         <div class = "col s1">
 
@@ -72,7 +129,7 @@
                         <div class = "col s1 teal lighten-3">
                         </div>
                         <div class = "col s10 teal lighten-3">
-                          <p id = "description">Discription of whats going on</p>
+                          <p id = "description">One of my favorite favorite activities. Join the Night's Watch</p>
                         </div>
                         <div class = "col s1 teal lighten-3">
                         </div>
@@ -83,6 +140,10 @@
 
                         </div>
                         <div class = "col s5">
+                          <center><p>Accept</p></center>
+                      </div>
+                      <div class = "col s5">
+                        <center><p>Decline</p></center>
                       </div>
                     </div>
 
@@ -99,6 +160,157 @@
 
           </div>
         </div>
+
+        <!--Break-->
+        <div class = "row">
+          <div class = "col s1">
+
+          </div>
+          <div class = "col s10">
+            <div class = "container">
+
+              <div class = "selection">
+                <div class = "row">
+
+                  <div class = "col s1">
+
+                  </div>
+
+            <div class = "col s10 card-panel teal lighten-2">
+              <!-- Important Info - Event -->
+              <div class = "row">
+                <!-- Left side -->
+                <div class = "col s1">
+
+                </div>
+                <div class = "col s4 teal lighten-3">
+                  <p id = "hostName">AnJulie</p>
+                  <p id = "hostActivity">Hunger Games</p>
+                </div>
+                <!-- Blank Space (Middle) -->
+                <div class = "col s2 teal lighten-3">
+
+                </div>
+                <!-- Right side -->
+                <div class = "col s4 teal lighten-3">
+                  <p id = "hostTime">Late Night</p>
+                  <p id = "hostLocation">Mac</p>
+                </div>
+                <div class = "col s1">
+
+                </div>
+              </div>
+              <!-- Description In - Event -->
+              <div class = "row">
+                <div class = "col s1 teal lighten-3">
+                </div>
+                <div class = "col s10 teal lighten-3">
+                  <p id = "description">One of my favorite favorite activities. Join the Night's Watch</p>
+                </div>
+                <div class = "col s1 teal lighten-3">
+                </div>
+              </div>
+              <!-- Accept or Decline -->
+              <div class = "row">
+                <div class = "col s1">
+
+                </div>
+                <div class = "col s5">
+                  <center><p>Accept</p></center>
+              </div>
+              <div class = "col s5">
+                <center><p>Decline</p></center>
+              </div>
+            </div>
+
+            <div class = "col s1 card-panel teal lighten-2">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class = "col s1">
+
+  </div>
+</div>
+
+<!--End-->
+
+        <div class = "row">
+          <div class = "col s1">
+
+          </div>
+          <div class = "col s10">
+            <div class = "container">
+
+              <div class = "selection">
+                <div class = "row">
+
+                  <div class = "col s1">
+
+                  </div>
+
+            <div class = "col s10 card-panel teal lighten-2">
+              <!-- Important Info - Event -->
+              <div class = "row">
+                <!-- Left side -->
+                <div class = "col s1">
+
+                </div>
+                <div class = "col s4 teal lighten-3">
+                  <p id = "hostName">Harry Potter</p>
+                  <p id = "hostActivity">Quidditch</p>
+                </div>
+                <!-- Blank Space (Middle) -->
+                <div class = "col s2 teal lighten-3">
+
+                </div>
+                <!-- Right side -->
+                <div class = "col s4 teal lighten-3">
+                  <p id = "hostTime">10:00 AM - 12:00 PM</p>
+                  <p id = "hostLocation">Newton Campus</p>
+                </div>
+                <div class = "col s1">
+
+                </div>
+              </div>
+              <!-- Description In - Event -->
+              <div class = "row">
+                <div class = "col s1 teal lighten-3">
+                </div>
+                <div class = "col s10 teal lighten-3">
+                  <p id = "description">The world's Sport. You know you wanna play</p>
+                </div>
+                <div class = "col s1 teal lighten-3">
+                </div>
+              </div>
+              <!-- Accept or Decline -->
+              <div class = "row">
+                <div class = "col s1">
+
+                </div>
+                <div class = "col s5">
+              </div>
+            </div>
+
+            <div class = "col s1 card-panel teal lighten-2">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class = "col s1">
+
+  </div>
+</div>
+
+      </div>
     </div>
   </div>
   </body>
